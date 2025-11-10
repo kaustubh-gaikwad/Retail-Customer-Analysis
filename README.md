@@ -140,6 +140,8 @@ Business insight communication using data
 - eda_monthly_revenue.csv – Monthly revenue trend data
 
 - rfm_table.csv – RFM segmentation table
+  
+- rfm segment.png - Customer count by segment
 
 - monthly_revenue.png – Monthly revenue chart
 
