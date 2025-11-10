@@ -151,8 +151,9 @@ Business insight communication using data
 
 - README.md – Project documentation and explanation
   
-LinkedIn: http://linkedin.com/in/kaustubhgaikwad-msba
 🚀 Business Impact Summary
 
 This project simulates a data-driven decision support system — similar to those used by e-commerce, advertising, or analytics teams at Google, Meta, or Amazon.
 It demonstrates the ability to transform raw transactional data into insightful visualizations and actionable recommendations for business growth.
+
+LinkedIn: http://linkedin.com/in/kaustubhgaikwad-msba |  kaustubh01gaikwad@gmail.com
