@@ -1,20 +1,20 @@
- - Retail Customer Behavior & Segmentation Analysis
-End-to-End Data Analytics Project using the UCI Online Retail Dataset
+## Retail Customer Behavior & Segmentation Analysis
+Designed and executed a full-cycle retail analytics solution on 500K+ real-world transactions, analyzing customer behavior, performing RFM-based segmentation, and delivering data-driven insights to support targeted marketing, customer retention, and revenue optimization strategies.
 
-🎯 Project Overview
+## Project Overview
 
 This project replicates a real-world analytics workflow similar to what a Data Analyst at Google or Meta might perform.
 Using the UCI Online Retail dataset, analyzed customer transactions to uncover:
 
-Revenue trends & seasonal behavior 📈
+Revenue trends & seasonal behavior 
 
-Product performance & sales distribution 📦
+Product performance & sales distribution 
 
-High-value customer segments via RFM analysis 💎
+High-value customer segments via RFM analysis 
 
 The goal is to demonstrate how data-driven insights can support business growth, retention, and marketing optimization — core functions of data analytics teams at leading tech companies.
 
-🧩 Dataset Summary
+## Dataset Summary
 
 Source: UCI Machine Learning Repository – Online Retail (https://archive.ics.uci.edu/ml/datasets/online+retail) 541,909 transaction records (Dec 2010 – Dec 2011)
 Cleaned dataset: (https://docs.google.com/spreadsheets/d/1dlw8GFbVH-gvvlg-3NgS34JFWUA2Jecb/edit?usp=sharing&ouid=106531511300919198144&rtpof=true&sd=true)
@@ -30,13 +30,14 @@ Cleaned dataset: (https://docs.google.com/spreadsheets/d/1dlw8GFbVH-gvvlg-3NgS34
 Features: InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 
 Region: Primarily UK customers
-🧰 Tools & Technologies
+## Tools & Technologies
 Category	Stack
 Language	Python 
 Libraries	Pandas, NumPy, Matplotlib
 Environment	Jupyter Notebook
 Data Format	Excel → CSV outputs, PNG visualizations
-🧹 Data Cleaning & Preparation
+
+## Data Cleaning & Preparation
 
 Performed rigorous preprocessing to ensure accuracy and consistency:
 
@@ -53,33 +54,33 @@ Created TotalPrice = Quantity × UnitPrice
 Removed duplicates
 
 
-📊 Exploratory Data Analysis (EDA)
-1️⃣ Top Products by Sales & Revenue
+## Exploratory Data Analysis (EDA)
+1. Top Products by Sales & Revenue
 
-Identified SKUs driving the highest revenue and sales volume.
-Revealed which products contribute disproportionately to profits — an example of Pareto (80/20) distribution in retail.
+- Identified SKUs driving the highest revenue and sales volume.
+- Revealed which products contribute disproportionately to profits — an example of Pareto (80/20) distribution in retail.
 
-2️⃣ Monthly Revenue Trend
+2. Monthly Revenue Trend
 
-Displays strong seasonality — peak months likely align with holiday campaigns.
+- Displays strong seasonality — peak months likely align with holiday campaigns.
 
-This pattern can guide inventory planning and marketing spend allocation.
+- This pattern can guide inventory planning and marketing spend allocation.
 
-3️⃣ Distribution of Order Values (Log Scale)
+3. Distribution of Order Values (Log Scale)
 
-Most orders are between $100 – $1,000.
+- Most orders are between $100 – $1,000.
 
-A long-tail pattern exists — few high-value orders generate a large portion of total revenue.
+- A long-tail pattern exists — few high-value orders generate a large portion of total revenue.
 
-Typical of marketplaces like Amazon, Meta Ads, or Google Shopping.
+- Typical of marketplaces like Amazon, Meta Ads, or Google Shopping.
 
-4️⃣ Cumulative Distribution of Order Values
+4. Cumulative Distribution of Order Values
 
-~90 % of orders are below a few thousand dollars.
+- ~90 % of orders are below a few thousand dollars.
 
-Highlights skewed spending behavior and reinforces the need for customer segmentation.
+- Highlights skewed spending behavior and reinforces the need for customer segmentation.
 
-🧮 RFM (Recency–Frequency–Monetary) Analysis
+## RFM (Recency–Frequency–Monetary) Analysis
 Metric	Description	Business Meaning
 Recency (R)	Days since last purchase	Measures engagement freshness
 Frequency (F)	Number of invoices	Indicates loyalty and repeat behavior
@@ -87,43 +88,46 @@ Monetary (M)	Total spend	Reflects customer lifetime value (CLV)
 
 We assigned quintile scores (1 – 5) and built an RFM_Score to classify customers.
 
-Customer Segments
+## Customer Segments
 Segment	Description	Business Strategy
-🏆 Champions	Recent, frequent, high-spending	Reward with loyalty programs
-💎 Loyal	Repeat buyers with good recency	Maintain retention
-⚠️ At Risk	Previously active, now dormant	Re-engagement campaigns
-💤 Dormant	Low frequency & old activity	Consider churned
-🌱 Potential	Moderate recency or spend	Target for upselling
+- Champions	Recent, frequent, high-spending	Reward with loyalty programs
+- Loyal	Repeat buyers with good recency	Maintain retention
+- At Risk	Previously active, now dormant	Re-engagement campaigns
+- Dormant	Low frequency & old activity	Consider churned
+- Potential	Moderate recency or spend	Target for upselling
 
  Output: rfm_table.csv
 
-💡 Key Insights
+## Key Insights
 
-The business relies heavily on high-value “champion” customers for revenue.
+- The business relies heavily on high-value “champion” customers for revenue.
 
-Seasonal revenue spikes highlight the importance of time-based promotions.
+- Seasonal revenue spikes highlight the importance of time-based promotions.
 
-The long-tail effect shows that a small percentage of customers drive most sales.
+- The long-tail effect shows that a small percentage of customers drive most sales.
 
-RFM segmentation provides actionable marketing insights:
+- RFM segmentation provides actionable marketing insights:
 
-Personalize offers to retain loyal customers
+- Personalize offers to retain loyal customers
 
-Target at-risk customers with win-back campaigns
+- Target at-risk customers with win-back campaigns
 
-Identify growth opportunities within “potential” segments
+- Identify growth opportunities within “potential” segments
+  
 
-🧠 Skills Demonstrated
+## Skills Demonstrated
 
-Data wrangling and cleaning in Pandas
+- Data wrangling and cleaning in Pandas
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 
-Visualization & storytelling with Matplotlib
+- Visualization & storytelling with Matplotlib
 
-RFM segmentation & behavioral analytics
+- RFM segmentation & behavioral analytics
 
-Business insight communication using data
+- Business insight communication using data
+
+
 
 📁 Project Structure
 
@@ -153,7 +157,7 @@ Business insight communication using data
 
 - README.md – Project documentation and explanation
   
-🚀 Business Impact Summary
+## Business Impact Summary
 
 This project simulates a data-driven decision support system — similar to those used by e-commerce, advertising, or analytics teams at Google, Meta, or Amazon.
 It demonstrates the ability to transform raw transactional data into insightful visualizations and actionable recommendations for business growth.
